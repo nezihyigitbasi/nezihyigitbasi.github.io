@@ -1,0 +1,19 @@
+---
+layout: default
+title: Online Writing
+---
+
+Nezih Yigitbasi, PhD is a senior software engineer in the Big Data Platform @ Netflix working on and contributing to various big data systems such as Presto SQL engine, Apache Spark, Hive, Pig, and Parquet. He has a decade of experience as a distributed systems researcher and practitioner, and his research has been published in top venues such as SIGMETRICS, HPDC, MASCOTS, and TPDS. So far his research has been recognized by two best paper awards and a biggest impact award, and he holds two US patents.
+
+<br/>
+<br/>
+
+<h1>Recent posts</h1>
+
+  <ul class="new posts">
+    {% for post in site.posts limit:5 %}
+      <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+   <li><span>(19 Aug 2015)</span> <a href="https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e">A Look at Conflict-Free Replicated Data Types (CRDT)</a>
+   <li><span>(15 Aug 2015)</span> <a href="https://medium.com/@istanbul_techie/crunching-parquet-files-with-apache-flink-200bec90d8a7">Crunching Parquet Files with Apache Flink</a>
+  </ul>

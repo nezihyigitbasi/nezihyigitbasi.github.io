@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/kube.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/screen.css" type="text/css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  </head>
+  <body>
+    <div class="units-container">
+      <div class="units-row header">
+        <hgroup>
+          <h2>
+           <font color="#8F4545">Nezih Yigitbasi</font>
+          </h2>
+          <h3 class="subheading">
+            <a href="/index.html" title="home">home</a> | <a href="/research.html">research</a> |  <a href="https://scholar.google.com/citations?user=p4aiRmUAAAAJ&hl=en" title="Publications">publications</a> | <a href="/talks.html" title="Talks">talks</a> | <a href="https://github.com/nezihyigitbasi/"><img src="images/github-icon.png" width="24" height"24"></a> | <a href="http://twitter.com/istanbul_techie"><img src="images/twitter-icon.png" width="24" height"24"></a> | <a href="http://www.linkedin.com/in/nezihyigitbasi"><img src="images/linkedin-icon.png" width="24" height"24"></a>
+          </h3>
+        </hgroup>
+      </div>
+      <div class="units-row content">
+        {{ content }}
+      </div>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>
